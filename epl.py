@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Nov 22 20:43:58 2022
-
-@author: swuma
 """
 
 import requests
@@ -10,24 +7,7 @@ from bs4 import BeautifulSoup
 import pandas as pd
 import time
 
-# Loop through 2 Epl seasons
-# For each season:
-    #get starting url and request the page
-    #create an empty list for storing final tables
-    #get the standing table 
-    #get all the club links 
-    #loop through all the links
-    #For each link:
-        #visit the link page
-        #get the fixtures table and convert to dataframe
-        #get the shooting link
-        #visit the shooting page
-        #get the shooting table and convert to dataframe
-        #merge shooting table with fixtures table
-        #add club and year columns to the merged table and populate with data
-        #append merged table to a list
-        
-    #update url with previous season url
+
 seasons =  ["2021-2022", "2020-2021"]
 all_tables = []
 
